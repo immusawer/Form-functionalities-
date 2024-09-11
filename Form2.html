@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-div">
+        <!---form must be here-->
+        <form id="myForm">
+          <table>
+            <tr>
+              <td id="heading" class="protest-guerrilla-regular" colspan="2">
+                <h1>Personal Information form</h1>
+              </td>
+            </tr>
+            <tr>
+              <td>Name:</td>
+              <td id="td2">
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter Your Name Here...."
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Password:</td>
+              <td id="td2">
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="input your password"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>gender</td>
+              <td id="td2">
+                Male<input type="radio" value="male" name="gender" />
+                Female<input type="radio" value="Female" name="gender" />
+              </td>
+            </tr>
+            <tr>
+              <td>Education</td>
+              <td id="td2">
+                <select id="education">
+                  <option value="BCS">BCS</option>
+                  <option value="MBA">MBA</option>
+                  <option value="BBA">BBA</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Hobbies</td>
+              <td id="td2">
+                Watching TV<input
+                  type="checkbox"
+                  name="hobbies"
+                  value="watching TV"
+                />
+                Football<input
+                  type="checkbox"
+                  name="hobbies"
+                  value="Playing Football"
+                />
+                Swimming<input
+                  type="checkbox"
+                  name="hobbies"
+                  value="Swimming"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Comment</td>
+              <td id="td2">
+                <textarea
+                  id="comment"
+                  cols="40"
+                  row="5"
+                  placeholder="your Comments Here..."
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <button type="submit">Submit</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+
+      <div class="form-div">
+        <!---form must be here-->
+        <table id="resultTable">
+          <tr>
+            <td id="nameResult"></td>
+          </tr>
+          <tr>
+            <td id="passwordResult"></td>
+          </tr>
+          <tr>
+            <td id="genderResult"></td>
+          </tr>
+          <tr>
+            <td id="hobbyResult"></td>
+          </tr>
+          <tr>
+            <td id="educationResult"></td>
+          </tr>
+          <tr>
+            <td id="commentResult"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="put-your-js-file-here/functionality.js"></script>
+  </body>
+</html>

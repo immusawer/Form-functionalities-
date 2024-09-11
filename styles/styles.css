@@ -1,0 +1,90 @@
+.protest-guerrilla-regular {
+    font-family: sampleFont;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #heading{
+    height: 20px;
+    padding:10px;
+    width: 100%;
+    text-align: center;
+  }
+ #td2{
+  width:100%;
+ }
+  table{
+    width: 100%;
+    border-radius: 10px;
+
+  }
+  input[type='text'],input[type="password"],#comment{
+    height: 30px;
+    font-family: sampleFont;
+    font-weight: 100;
+    border-radius: 10px;
+    background-color: black;
+    color: wheat;
+    padding:3px;
+    
+  }
+  .form-div{
+    border:3px outset white;
+    padding:5%;
+    box-shadow: 11px 14px 14px -4px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 11px 14px 14px -4px rgba(0,0,0,0.71);
+    -moz-box-shadow: 11px 14px 14px -4px rgba(0,0,0,0.71);
+    border-radius: 97px 10px 114px 10px;
+-webkit-border-radius: 97px 10px 114px 10px;
+-moz-border-radius: 97px 10px 114px 10px;
+  }
+  td{
+    padding:10px;
+    width: 20%;
+
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    justify-content: center; /* this centers the element based on MAIN AXIS*/
+    vertical-align: center;
+    flex-wrap: wrap;
+
+  }
+
+  @font-face {
+    font-family: sampleFont;
+    src: url('../fonts/ProtestGuerrilla-Regular.ttf');
+}
+
+  body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url('./background.png');
+    background-repeat: repeat-y;
+    background-size: cover;
+
+  }
+  button{
+    background-color: black;
+    color:white;
+    font-family: sampleFont;
+    border:3px outset white;
+    justify-content: center;
+    width: 50%;
+    margin-left: 20%;
+    height: 30px;
+    border-radius: 10px;
+  }
+  button:hover{
+    background-color: white;
+    color:black;
+    font-family: sampleFont;
+    border:3px outset black;
+    justify-content: center;
+    width: 50%;
+    margin-left: 20%;
+    height: 30px;
+    border-radius: 10px;
+  }
